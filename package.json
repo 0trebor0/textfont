@@ -1,12 +1,15 @@
 {
   "name": "textfont",
   "version": "1.0.0",
-  "description": "",
+  "description": "nodejs console.log colors",
+  "homepage":"https://github.com/0trebor0/textfont",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {},
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/0trebor0/textfont.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "0trebor0",
   "license": "ISC"
 }
