@@ -12,13 +12,13 @@ const colors  = {
         green:"\x1b[42m%s\x1b[0m",
         blue:"\x1b[44m%s\x1b[0m",
         yellow:"\x1b[43m%s\x1b[0m"
-    },
-    true:function(){
-        for(let x in colors.fonts ){
-            console[x] = (text)=>{
-                console.log( colors.fonts[x], text );
-            }
-        }
     }
 }
-module.exports = colors;
+module.exports = ()=>{
+    for(let x in colors.fonts ){
+        console[x] = (text)=>{
+            console.log( colors.fonts[x], text );
+        }
+    }
+    return colors;
+};
