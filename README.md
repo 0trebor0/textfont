@@ -4,12 +4,12 @@ const textfont = require('textfont');
 
 textfont.true();
 
-// console.red("RED");
+console.red("RED");
 
-// console.blue("BLUE");
+console.blue("BLUE");
 
-// console.yellow("YELLOW");
+console.yellow("YELLOW");
 
-// console.green("GREEN");
+console.green("GREEN");
 
-// console.white("WHITE");
+console.white("WHITE");
