@@ -1,6 +1,6 @@
 {
   "name": "textfont",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "nodejs console.log colors",
   "homepage":"https://github.com/0trebor0/textfont",
   "main": "index.js",
